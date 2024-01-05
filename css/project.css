@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+}
+.border{
+    border:1px solid transparent;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{ 
+    height:50px;
+    width:100px;
+    background-color:blue ;
+    background-image: url("https://www.shutterstock.com/image-vector/chattogram-bangladesh-april-24-2023-260nw-2292992631.jpg");
+    background-size: cover;
+  } 
+  .border:hover{
+    border: 1px solid white;
+  }
+  #add1{
+    font-size: 12px;
+    color: #cccccc;
+    margin: 0.85rem;
+    
+  }
+  .add-icon{
+    display: flex;
+    margin-top: -12px;
+    margin-left: 2px;
+    
+  }
+  #add2{
+    font-size: 1rem;
+  }
+  .search-bar{
+    display:flex;
+    height: 50px;
+    width: 450px;
+    border-radius: 4px;
+    }
+    .search{
+        background-color:rgb(237, 135, 26) ;
+    font-size: xx-large;
+
+    }
+    .select{
+        background-color: #ffffff;
+        width: 55;
+        height: 40;
+        
+    }
+  
