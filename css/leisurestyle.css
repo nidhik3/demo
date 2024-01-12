@@ -1,81 +1,80 @@
-*{
- padding: 0px;
- margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
-.icon{
-    padding-left: 675px;
-    top: 40px;
+.icon {
+  padding-left: 675px;
+  top: 40px;
 }
-.top{
-    margin-bottom: 15px;
+.top {
+  margin-bottom: 15px;
 }
-.section{
-    height: 1300px;
-    width:1472px;
-    background-color: #ffffff;
-    padding-top: 5px;
+.section {
+  height: 1300px;
+  width: 1472px;
+  background-color: #ffffff;
+  padding-top: 5px;
 }
-.f1{
-    font-family: cursive;
-    padding-left: 645px;
+.f1 {
+  font-family: cursive;
+  padding-left: 645px;
 }
-header{
-    height: 60px;
+header {
+  height: 60px;
 }
-footer{
-    height: 60px;
+footer {
+  height: 60px;
 }
-.content{
-    margin-left: 15px;
-    width: 794px;
-    font-size: 25px;
-    font-family:'Lucida Sans';
-    font-weight: lighter;
-    /* color: rgb(64, 64, 64); */
-    line-height: 1.6;
-    height: 325px;
+.content {
+  margin-left: 15px;
+  width: 794px;
+  font-size: 25px;
+  font-family: "Lucida Sans";
+  font-weight: lighter;
+  /* color: rgb(64, 64, 64); */
+  line-height: 1.6;
+  height: 325px;
 }
-.center{
-    background-color: #06163d;
-    color: white;
-    display: flex;
-    font-family:sans-serif;
-    font-size: 16px;
-    
+.center {
+  background-color: #06163d;
+  color: white;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 16px;
 }
-.activity{
-    width: 100%;
-    height: 1500px;
-    margin-top: 40px;
-    display: flex;
-    /* padding-top: 31px; */
+.activity {
+  width: 100%;
+  height: 1500px;
+  margin-top: 40px;
+  display: flex;
+  /* padding-top: 31px; */
 }
-.b1{
-    height: 310px;
-    width: 430px;
-    margin-left: 64px;
-    /* background-color: coral; */
+.b1 {
+  height: 310px;
+  width: 430px;
+  margin-left: 64px;
+  /* background-color: coral; */
 }
-.image{
-    height: 300px;
-    width: 420px; 
+.image {
+  height: 300px;
+  width: 420px;
 }
-.contenti{
-    margin-top: 12px;
-    margin-left: 70px;
+.contenti {
+  margin-top: 12px;
+  margin-left: 70px;
 }
-h3{
-    margin-bottom: 12px;
-    margin-top: 12px;
+h3 {
+  margin-bottom: 12px;
+  margin-top: 12px;
 }
-span{
-    display:flex;
-    justify-content: center;
-    height: 40px;
-    font-family: cursive;
-    /* text-decoration: underline; */
+span {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  font-family: cursive;
+  /* text-decoration: underline; */
 }
-.box{
-    height: 310px;
-    width: 430px;
+.box {
+  height: 310px;
+  width: 430px;
 }
