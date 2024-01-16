@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    color: white;
-    font-size: 20px;
+    /* color: white; */
+    font-size: 23px;
 }
 #main{
     background-color: rgba(0, 0, 0, 0.71);
@@ -17,40 +17,12 @@ a{
 }
 #logo{
     margin-left: 5px;
-    color: orangered;
+ 
     font-size: 25px;
 }
 button{
     background-color: orangered;
     color: white;
-}
-.dd{
-    color: black;
-    width: 200px;
-    height: 200px;
-    margin:80px ;
-    padding: 30px;
-    border: 2px solid black;
-    display: inline-block;
-    margin-top: 150px;
-}
-#ab{
-    margin-left: 230px;
-    background-color: rgba(0, 0, 255, 0.5);
-    background-image: url("1.jpg.jpg");
-    background-size:cover;
-}
-#bc{
-background-color: rgba(0, 255, 0, 0.5);
-background-image: url("2.jpg.jpg");
-background-size: contain;
-
-}
-#cd{
-    background-color: rgba(255, 0, 0, 0.5);
-    background-image: url("3.jpg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 #content{
@@ -70,29 +42,7 @@ footer{
     top: 80px;
 }
 
-/* #b2{
-    background-color: cadetblue;
-    
-}
-#b3{
-    background-color: beige;
- 
-} */
-/* div{
-    width: 100px;
-    height: 100px;
-   padding: 25px;
-    margin: 25px;
-    display:inline-block;
-    background-color: rgba(255,0,0, 0.5);
-} */
-p:hover{
-background-color: darkgray;
-transition-property: all;
-transition-duration: 2s;
-font-size: 22px;
-/* transform:scale(1.2) ; */
-}
+
 p:active{
     background-color:rgb(67, 67, 250);
     color: aliceblue;
@@ -103,4 +53,23 @@ P{
 }
 .box1:hover{
 background-color:#000 ;
+}
+.content{
+    color: black;
+}
+.inputs{
+    margin-top: 50px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.inputs1{
+    margin-top: 60px;
+    margin-left: 550px;
+}
+p{
+    font-family: sans-serif;
+}
+.new{
+    font-size: 5px;
+    
 }

@@ -10,11 +10,11 @@
    
  <header>
     <div id="main">
-    <a href=" "id="logo">Amazon.in</a>
-    <a href=""id="a">Account</a>
-    <a href=""id="m">MyCart</a>
+    <a href=" "id="logo">Find</a>
+    <a href=""id="a">Search</a>
+    <a href=""id="m">Refresh</a>
     <a href=""id="c">ContactUs</a>
-    <input type="text"placeholder="search Amazon.in" >
+    <input type="text"placeholder="search Anything" >
     <button>
         search
     </button>
@@ -24,16 +24,70 @@
  <main>
     <div id="content">
         
-        <div id="ab"class="dd">shade1</div>
-        <div class="box1">
-        <div id="bc"class="dd">shade2</div>
+      <!-- <div class="heading"> SEARCH </div> -->
+      <form action="/action.php">
+      <div class="inputs">
+        <input type="text" name="company_name" placeholder="Enter Company's Name" >
+        <br>
+        <input type="text"name="owner_name" placeholder="Enter Owner's Name" >
+        <br></div>
+      <div class="inputs1">
+        <p>Select Industry</p><br>
+        <label for="Jewellers">
+        <input type="checkbox" value="Jewellers" name="city" id="1">Jewellers
+       </label><br>
+        <label for="Businessman">
+        <input type="checkbox" value="Businessman" name="city" id="2">Businessman
+       </label><br>
+        <label for="Caterers">
+        <input type="checkbox" value="Caterers" name="city" id="3">Caterers
+       </label><br><br>
+<p>Select city</p><br>
+       <label for="city">City</label>
+       <select name="city" id="c1">
+         <option value="select">Select City</option>
+         <option value="Abu road">Abu Road</option>
+         <option value="Ajmer">Ajmer</option>
+         <option value="Bhilwara">Bhilwara</option>
+         <option value="Chandigarh">Chandigarh</option>
+         <option value="Faridabad">Faridabad</option>
+         <option value="Gurgaon">Gurgaon</option>
+         <option value="Jaipur">Jaipur</option>
+         <option value="Gaziabad">Gaziabad</option>
+         <option value="Jodhpur">Jodhpur</option>
+         <option value="Kota">Kota</option>
+         <option value="Ludhiana">Ludhiana</option>
+         <option value="Noida">Noida</option>
+         <option value="Pali">Pali</option>
+         <option value="Udaipur">Udaipur</option>
+         <option value="Surat">Surat</option>
+         <option value="Varodara">Varodara</option>
+         <option value="Pune">Pune</option>
+         <option value="Mumbai">Mumbai</option>
+         <option value="Dehli">Dehli</option>
+         <option value="Bangalore">Bangalore</option>
+         <option value="Dungapur">Dungapur</option>
+         <option value="Greater Noida">Greater Noida</option>
+         <option value="Udaipur">Udaipur</option>
+         <option value="Rajsamand">Rajsamand</option>
+         <option value="Pune">Pune</option>
+         <option value="Banswara">Banswara</option>
+         <option value="Sirohi">Sirohi</option>
+         <option value="Pratapgarh">Pratapgarh</option>
+        
+       </select>
+       <!-- <p id="new">To select multiple options use ctrl</p><br> --><br><br>
+       <input type="submit" value="search">
        </div>
-        <div id="cd"class="dd">shade3</div>
+      </form>
+
+
+        
     </div>
  </main>
  <hr>
  <footer>
-    <p>Contact us at asdf@redifmail.in</p>
+    <p>Contact us at abc@gmail.in</p>
  </footer>
 </body>
 </html>
